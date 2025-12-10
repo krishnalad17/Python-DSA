@@ -2,7 +2,6 @@ def sort(n):
     zero=0
     one=0
     two=0
-
     for i in n:
         if i==0:
             zero+=1
@@ -14,11 +13,9 @@ def sort(n):
     for i in range(zero):
         n[index]=0
         index+=1
-
     for i in range(one):
         n[index]=1
         index+=1
-
     for i in range(two):
         n[index]=2
         index+=1
