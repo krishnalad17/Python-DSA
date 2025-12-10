@@ -8,6 +8,6 @@ def longest(n,k):
                 maxlength=max(maxlength,j-i+1)
     return maxlength
             
-print(longest(n=[1,1,1,4,1,1,1,2],k=5))
+print(longest(n=[6,-1,1,1,1],k=5))
                 
 
