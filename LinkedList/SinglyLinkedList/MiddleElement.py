@@ -1,6 +1,5 @@
 class Node():
     def __init__(self,data):
-        self.prev=None
         self.data=data
         self.next=None
 
@@ -9,12 +8,9 @@ b=Node(20)
 c=Node(30)
 d=Node(40)
 
-a.prev=None
 a.next=b
-b.prev=a
 b.next=c
-c.prev=b
-d.prev=c
+c.next=d
 d.next=None
 head=a
 
