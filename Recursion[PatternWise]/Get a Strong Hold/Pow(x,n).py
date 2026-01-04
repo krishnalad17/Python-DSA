@@ -28,4 +28,18 @@ def recursivepow(x,n):
     else:
         return x*half*half
 
-print(recursivepow(x=2,n=10))
+
+def power(x,n):
+    if x==1 or n==0:
+        return 1 
+    ans=1
+    for i in range(1,n+1):        
+        ans*=x
+    return ans
+
+import math
+
+def pwer(x,n):
+    return math.pow(x,n)
+    
+print(pwer(x=2,n=10))
